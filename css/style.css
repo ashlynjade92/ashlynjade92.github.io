@@ -1,9 +1,13 @@
 /* -------------------------------------- *
 General Styles
 * --------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
 body {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Raleway", Impact;
   font-size: 20px;
 }
 
@@ -11,7 +15,15 @@ h1,
 h2,
 h3 {
   font-size: 36px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20;
+}
+header {
+  border: 1px solid black;
+  background-image: url(../images/banners/annie-spratt-unsplash.jpg);
+  background-size: cover;
+  height: 260px;
+  background-position: 20% 10%;
 }
 main,
 header h1,
@@ -31,4 +43,20 @@ nav a:hover {
 nav {
   background-color: #ccc;
   padding: 12px;
+}
+.inspiro-img {
+  width: 400px;
+}
+
+.three-col {
+  display: flex;
+}
+
+.three-col article {
+  flex: 1;
+  padding: 10px;
+}
+
+.three-col .description {
+  flex-grow: 2;
 }

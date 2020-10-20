@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+.parent {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+header, 
+section {
+    width: 70vw;
+    margin: auto;
+    padding-top: 60px; 
+}
+.one {  background-color: powderblue;
+}
+
+.two {
+    background-color: lightgoldenrodyellow;
+}
+
+p {
+    padding-top: 0;
+}

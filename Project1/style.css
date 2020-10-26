@@ -18,7 +18,9 @@
 body { margin: 0;}
 * {box-sizing: border-box;}
 
-
+main {
+  height: 100vh;
+}
 html {
   box-sizing: border-box;
 }
@@ -37,6 +39,20 @@ a:visited {
 
 a.nav li{
  color:#352F31;
+}
+
+.homepage img { 
+  max-width: 100%; 
+  max-height: 400px;
+}
+.boletemain img { 
+  max-width: 100%; 
+  max-height: 423px;
+}
+
+.hedgehogmain img {
+  max-width: 100%; 
+  max-height: 412px;
 }
 
 nav ul{
@@ -68,11 +84,24 @@ h1 {
   background-color: #F1F2F2;
 }
 
-.homepage .one {
-  width: 600px;
+.homepage-layer { 
+  width: 40%;
+  margin: auto;
+  position: relative;
+   }
+   .homepage-layer .one { /* flesh */
+      margin-right: 300px;
+
+   }
+.homepage-layer .three { 
+  position: absolute;
+  top: 0;
 }
 
-.homepage .two {
+.homepage-layer .two {
+  position: absolute;
+  top: 0;
+  margin-left: 300px;
 }
 
 .home h1{

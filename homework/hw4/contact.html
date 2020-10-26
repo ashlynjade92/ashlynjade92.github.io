@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Homework 4</title>
+</head>
+<body>
+    <h1>Homework 4</h1>
+    <form action="https://getsimpleform.com/messages?form_api_token=598aa1ed77fb0fba1c0e6936246d86f2" method="post">
+        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+        <input type='hidden' name='redirect_to' value='https://ashlynjade92.github.io/homework/hw4/thankyou.html' />
+        <!-- all your input fields here.... -->
+        <p>Name:<input type='text' name='test' /> 
+        <p>Favorite season: </br> 
+            <input type="radio" name="season" value="winter"> Winter
+            <input type="radio" name="season" value="spring"> Spring
+            <input type="radio" name="season" value="summer"> Summer
+            <input type="radio" name="season" value="fall"> Fall
+         </p>
+        <p>Why is this your favorite season?</p>
+        <textarea name="explanation" cols="20" rows="5">Explain...</textarea>
+    </p>
+    <p>Email: <input type="text" name="email"></p>
+
+        <input type='submit' value='Submit' />
+        
+   
+      </form>
+</body>
+</html>

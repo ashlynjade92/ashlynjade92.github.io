@@ -1,8 +1,7 @@
 @font-face {
-    font-family: 'BebasNeue-Regular';
+    font-family: 'windsor_BT';
     src:
-         url('fonts/BebasNeue-Regular.woff') format('woff'),
-         url('fonts/BebasNeue-Regular.ttf') format('truetype');
+         url('fonts/Windsor_BT.ttf') format('truetype'),
     font-weight: normal;
     font-style: normal;
 }
@@ -15,6 +14,10 @@
     font-weight: normal;
     font-style: normal;
 }
+
+body { margin: 0;}
+* {box-sizing: border-box;}
+
 
 html {
   box-sizing: border-box;
@@ -59,7 +62,7 @@ nav li{
 }
 
 h1 {
-  font-family: "BebasNeue-Regular", cursive;
+  font-family: "windsor_BT";
 }
 .home {
   background-color: #F1F2F2;
@@ -89,15 +92,7 @@ body {
     margin: 0;
   }
   
-  .chanterellemain {
-    position: relative;
-    width: 100vw;
-    background-color: #EADBD2;
-  }
-  
-.morelmain {
-  background-color: orange;
-}
+
 
 .grid-1 {
   display: flex;
@@ -108,49 +103,144 @@ body {
 .grid-1 div {
   flex: 1;
 }
-.img-layer{
+.bolete-layer{
   position: relative;
 }
 
-.img-layer .two {
+.bolete-layer .two {
   position: absolute;
   top: 0;
-  left:200px;
+  right:200px;
 }
-.img-layer .three {
+
+.bolete-layer .three {
   position: absolute;
   top: 100px;
   left:0;
 }
 
-  .grid-2 {
-    display: flex;
-    width: 80vw;
-    margin: auto;
-  }
+.boletes {
+  top: 170px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  font-size: 45px;
+  font-family: 'windsor'
+  padding: 12px 28px;
+  margin: 0;
+}
 
-  .grid-2 .chanterelle-content {
-    margin-top: 250px;
-  }
-  
-  .grid-2 div {
-    flex: 1;
-    padding: 0px;
-  }
+.grid-2 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
 
-  .c-image > div {
-    padding: 10px;
-  }
+.grid-2 div {
+  flex: 1;
+}
+
+.chanterelle-layer{
+  position: relative;
+}
+
+.chanterelle-layer .two {
+  position: absolute;
+  top: 0;
+  left:200px;
+}
+.chanterelle-layer .three {
+  position: absolute;
+  top: 100px;
+  left:0;
+}
+
   
-  .chanterelles  {
-    position: absolute;
+.chanterelles  {
     top: 170px;
     left: 0;
     right: 0;
     margin: 0;
-    text-align: center;
     font-size: 45px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'windsor_BT', Courier, monospace;
     padding: 12px 28px;
     margin: 0;
  }
+ 
+
+
+ .grid-3 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.grid-3 div {
+  flex: 1;
+}
+.hedgehog-layer{
+  position: relative;
+}
+
+.hedgehog-layer .two {
+  position: absolute;
+  top: 0;
+  left:200px;
+}
+.hedgehog-layer .three {
+  position: absolute;
+  top: 100px;
+  left:0;
+}
+
+.hedgehogs {
+  top: 170px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  font-size: 45px;
+  font-family: 'windsor'
+  padding: 12px 28px;
+  margin: 0;
+}
+
+
+
+.grid-4 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.grid-4 div {
+  flex: 1;
+}
+.morel-layer{
+  position: relative;
+}
+
+.morel-layer .two {
+  position: absolute;
+  top: 0;
+  left:200px;
+}
+.morel-layer .three {
+  position: absolute;
+  top: 100px;
+  left:0;
+}
+
+.morels {
+  top: 170px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  font-size: 45px;
+  font-family: 'windsor'
+  padding: 12px 28px;
+  margin: 0;
+}
+
+
+
+

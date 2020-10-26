@@ -69,11 +69,10 @@ h1 {
 }
 
 .homepage .one {
-  width: 200px;
+  width: 600px;
 }
 
 .homepage .two {
-  width: 200;
 }
 
 .home h1{
@@ -169,7 +168,7 @@ body {
     right: 0;
     margin: 0;
     font-size: 45px;
-    font-family: 'windsor_BT', Courier, monospace;
+    font-family: 'windsor_BT';
     padding: 12px 28px;
     margin: 0;
  }
@@ -206,9 +205,14 @@ body {
   right: 0;
   margin: 0;
   font-size: 45px;
-  font-family: 'windsor';
+  font-family: 'windsor_BT';
   padding: 12px 28px;
   margin: 0;
+}
+
+.hyndum {
+  font-size: 30px;
+  font-family: 'windsor_BT';
 }
 
 

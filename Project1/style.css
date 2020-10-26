@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'windsor_BT';
     src:
-         url('fonts/Windsor_BT.ttf') format('truetype'),
+         url('fonts/Windsor_BT.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -64,8 +64,16 @@ nav li{
 h1 {
   font-family: "windsor_BT";
 }
-.home {
+.homepage {
   background-color: #F1F2F2;
+}
+
+.homepage .one {
+  width: 200px;
+}
+
+.homepage .two {
+  width: 200;
 }
 
 .home h1{
@@ -92,7 +100,6 @@ body {
     margin: 0;
   }
   
-
 
 .grid-1 {
   display: flex;
@@ -125,7 +132,7 @@ body {
   right: 0;
   margin: 0;
   font-size: 45px;
-  font-family: 'windsor'
+  font-family: 'windsor_BT';
   padding: 12px 28px;
   margin: 0;
 }
@@ -199,7 +206,7 @@ body {
   right: 0;
   margin: 0;
   font-size: 45px;
-  font-family: 'windsor'
+  font-family: 'windsor';
   padding: 12px 28px;
   margin: 0;
 }

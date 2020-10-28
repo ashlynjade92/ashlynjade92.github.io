@@ -44,9 +44,14 @@ body {
 }
 * {box-sizing: border-box;}
 
-home {
+.home {
   background-color: #F1F2F2;
 }
+
+.chantrellepage {
+  background-color: #EADBD2;
+}
+
 
 main {
   height: 100vh;
@@ -240,7 +245,10 @@ body {
   right: 90px;
 }
 
-  
+.chanterelle-content {
+  padding-top: 60px;
+}
+
 .chanterelles  {
     top: 170px;
     left: 0;

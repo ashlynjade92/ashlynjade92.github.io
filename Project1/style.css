@@ -38,7 +38,16 @@
   font-style: normal;
 }
 
-
+.sticky-top {
+  position: sticky;
+  top: 40px;
+  left: 40px;
+  width: 120px;
+  height: 120px;
+}
+.sticky-top img {
+  border-radius: 50%;
+}
 body { 
   margin: 0;
 }
@@ -79,7 +88,7 @@ a.nav li{
 
 .homepage img { 
   max-width: 100%; 
-  max-height: 400px;
+  max-height: 800px;
 }
 
 .boletemain img { 
@@ -136,9 +145,11 @@ nav li{
 
 
 .homepage-layer { 
-  width: 40%;
+  width: 50%;
   margin: auto;
   position: relative;
+  display: flex;
+  justify-content: space-around;
    }
 
 .homepage-layer .one { /* shapes */
@@ -230,8 +241,16 @@ body {
   flex: 1;
 }
 
+.chanterelle-layer img  {
+  width: 100%;
+  padding: 80px;
+}
 .chanterelle-layer{
   position: relative;
+}
+
+.chanterelle-layer .one {
+  margin-left: -80px;
 }
 
 .chanterelle-layer .two {

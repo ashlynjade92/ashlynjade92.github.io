@@ -7,16 +7,46 @@
 }
 
 @font-face {
-    font-family: 'BebasNeue-Regular';
+  font-family: 'windsorbq_light';
+  src:
+       url('fonts/windsorbq-light.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'WindsorOpti-LightCondensed';
     src:
-         url('fonts/BebasNeue-Regular.woff') format('woff'),
-         url('fonts/BebasNeue-Regular.ttf') format('truetype');
+         url('fonts/WindsorOpti-LightCondensed.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
-body { margin: 0;}
+@font-face {
+  font-family: 'sofiaProLight';
+  src:
+       url('fonts/SofiaProLight.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofiaProUltraLight';
+  src:
+       url('fonts/SofiaProUltraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body { 
+  margin: 0;
+}
 * {box-sizing: border-box;}
+
+home {
+  background-color: #F1F2F2;
+}
 
 main {
   height: 100vh;
@@ -26,7 +56,8 @@ html {
 }
 
 *, *:before, *:after {
-	box-sizing: inherit;
+  box-sizing: inherit;
+  margin-bottom: 5px;
 }
 
 a {
@@ -45,14 +76,19 @@ a.nav li{
   max-width: 100%; 
   max-height: 400px;
 }
+
 .boletemain img { 
-  max-width: 100%; 
-  max-height: 423px;
+  margin-left: 150px;
+
 }
 
 .hedgehogmain img {
   max-width: 100%; 
   max-height: 412px;
+}
+
+ul {
+  padding-inline-start: 0px;
 }
 
 nav ul{
@@ -71,37 +107,43 @@ nav li{
 	margin-left: 15px;
 	margin-top: 60px;
 	padding: 10px;
-	font-family: "proxima-nova", sans-serif;
+  font-family: "sofiaProLight", proxima-nova;
+  font-size: 17px;
 	font-style: normal;	
 	color: white;
 	box-sizing: border-box;
 }
 
-h1 {
+.home h1{
   font-family: "windsor_BT";
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 0px;
 }
-.homepage {
-  background-color: #F1F2F2;
+
+.home h2{
+ font-family: "sofiaProUltraLight";
+ font-size: 35px;
+ text-align: center;
+ padding: 0px 10px 10px 10px;
+ margin-top: 0px;
 }
+
 
 .homepage-layer { 
   width: 40%;
   margin: auto;
   position: relative;
    }
-   .homepage-layer .one { /* flesh */
-      margin-right: 300px;
 
-   }
-.homepage-layer .three { 
-  position: absolute;
-  top: 0;
+.homepage-layer .one { /* shapes */
+  align-items: center;
+  justify-content: center;
 }
 
-.homepage-layer .two {
+.homepage-layer .two { 
   position: absolute;
   top: 0;
-  margin-left: 300px;
 }
 
 .home h1{
@@ -127,7 +169,14 @@ h1 {
 body {
     margin: 0;
   }
-  
+
+  p {
+    font-family: "sofiaProLight";
+    padding: 1px 10px;
+    font-size: 16px;
+    text-align: justify;
+  }
+
 
 .grid-1 {
   display: flex;
@@ -138,6 +187,7 @@ body {
 .grid-1 div {
   flex: 1;
 }
+
 .bolete-layer{
   position: relative;
 }
@@ -150,8 +200,8 @@ body {
 
 .bolete-layer .three {
   position: absolute;
-  top: 100px;
-  left:0;
+  top: 160px;
+  right: 190px; 
 }
 
 .boletes {
@@ -182,12 +232,12 @@ body {
 .chanterelle-layer .two {
   position: absolute;
   top: 0;
-  left:200px;
+  
 }
 .chanterelle-layer .three {
   position: absolute;
-  top: 100px;
-  left:0;
+  top: 220px;
+  right: 90px;
 }
 
   
@@ -198,11 +248,13 @@ body {
     margin: 0;
     font-size: 45px;
     font-family: 'windsor_BT';
-    padding: 12px 28px;
+    padding: 12px 40px;
     margin: 0;
  }
- 
 
+ .boletus {
+   padding: 12px 40px;
+ }
 
  .grid-3 {
   display: flex;
@@ -222,6 +274,7 @@ body {
   top: 0;
   left:200px;
 }
+
 .hedgehog-layer .three {
   position: absolute;
   top: 100px;
@@ -245,7 +298,6 @@ body {
 }
 
 
-
 .grid-4 {
   display: flex;
   width: 80%;
@@ -255,19 +307,20 @@ body {
 .grid-4 div {
   flex: 1;
 }
+
 .morel-layer{
   position: relative;
 }
 
 .morel-layer .two {
   position: absolute;
-  top: 0;
-  left:200px;
+  top: 250px;
+  left:50px;
 }
 .morel-layer .three {
   position: absolute;
-  top: 100px;
-  left:0;
+  top: 120px;
+  left: 30px;
 }
 
 .morels {

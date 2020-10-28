@@ -248,12 +248,12 @@ body {
     margin: 0;
     font-size: 45px;
     font-family: 'windsor_BT';
-    padding: 12px 40px;
+    padding: 12px 5px;
     margin: 0;
  }
 
- .boletus {
-   padding: 12px 40px;
+ .cantharellus {
+   padding: 5px 5px 20px 5px;
  }
 
  .grid-3 {

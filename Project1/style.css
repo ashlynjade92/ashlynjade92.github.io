@@ -41,10 +41,13 @@
 .sticky-top {
   position: sticky;
   top: 40px;
-  left: 40px;
+  left: 60px;
+  bottom: 590px;
   width: 120px;
   height: 120px;
 }
+
+
 .sticky-top img {
   border-radius: 50%;
 }
@@ -243,14 +246,16 @@ body {
 
 .chanterelle-layer img  {
   width: 100%;
-  padding: 80px;
+  padding: 35px;
 }
+
 .chanterelle-layer{
   position: relative;
 }
 
 .chanterelle-layer .one {
   margin-left: -80px;
+  margin-top: 300px;
 }
 
 .chanterelle-layer .two {
@@ -260,12 +265,13 @@ body {
 }
 .chanterelle-layer .three {
   position: absolute;
+  left: -60px;
   top: 220px;
-  right: 90px;
 }
 
 .chanterelle-content {
-  padding-top: 60px;
+  padding: 150px 10px 10px 30px;
+  color: #352F31;
 }
 
 .chanterelles  {
@@ -273,16 +279,21 @@ body {
     left: 0;
     right: 0;
     margin: 0;
-    font-size: 45px;
+    font-size: 55px;
+    color: #352F31;
     font-family: 'windsor_BT';
-    padding: 12px 5px;
+    padding: 0px 5px;
     margin: 0;
  }
 
- .cantharellus {
-   padding: 5px 5px 20px 5px;
-   font-family: 'WindsorOpti-LightCondensed' 
- }
+.chanterelle-content h2 {
+  margin-top: 0px;
+  padding: 5px 5px 20px 5px;
+  font-size: 34px;
+  color: #352F31;
+  font-family: 'WindsorOpti-LightCondensed' 
+  
+}
 
  .grid-3 {
   display: flex;

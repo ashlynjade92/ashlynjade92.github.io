@@ -39,6 +39,7 @@
 }
 
 .sticky-top {
+  position: -webkit-sticky;
   position: sticky;
   top: 40px;
   left: 60px;
@@ -49,6 +50,7 @@
 
 
 .sticky-top img {
+  width: 80px;
   border-radius: 50%;
 }
 body { 
@@ -60,7 +62,7 @@ body {
   background-color: #F1F2F2;
 }
 
-.chantrellepage {
+.chanterellepage {
   background-color: #EADBD2;
 }
 
@@ -271,7 +273,6 @@ body {
 
 .chanterelle-content {
   padding: 150px 10px 10px 30px;
-  color: #352F31;
 }
 
 .chanterelles  {

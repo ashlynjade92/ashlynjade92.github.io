@@ -43,12 +43,16 @@ body {
 }
 * {box-sizing: border-box;}
 
-.home {
+.home .hedgehogpage {
   background-color: #F1F2F2;
 }
 
-.chanterellepage {
+.chanterellepage, .boletepage {
   background-color: #EADBD2;
+}
+
+.morelpage {
+  background-color: #EDBE6F;
 }
 
 main {
@@ -82,12 +86,6 @@ a.nav li{
 
 .boletemain img { 
   margin-left: 150px;
-
-}
-
-.hedgehogmain img {
-  max-width: 100%; 
-  max-height: 412px;
 }
 
 ul {
@@ -101,19 +99,16 @@ nav ul{
 nav{ 
 	text-align: center;
 	width: 100%;
-	background-color: transparent;
 	}
 
 nav li{
 	display: inline-block;
 	margin-right: 15px;
 	margin-left: 15px;
-	margin-top: 60px;
+	margin-top: 40px;
 	padding: 10px;
   font-family: "sofiaProLight", proxima-nova;
   font-size: 17px;
-	font-style: normal;	
-	color: white;
 	box-sizing: border-box;
 }
 
@@ -128,7 +123,6 @@ nav li{
   padding: 20px 20px 10px 20px;
   }
 
-
 .home h2{
  font-family: "sofiaProUltraLight";
  font-size: 30px;
@@ -137,14 +131,13 @@ nav li{
  margin-top: 0px;
 }
 
-
 .homepage-layer { 
   width: 55%;
   margin: auto;
   position: relative;
   display: flex;
   justify-content: space-around;
-   }
+}
 
 .homepage-layer .one { /* shapes */
   width: 100%;
@@ -177,14 +170,14 @@ nav li{
 
 body {
     margin: 0;
-  }
+}
 
-  p {
-    font-family: "sofiaProLight";
-    padding: 1px 10px;
-    font-size: 16px;
-    text-align: justify;
-  }
+p {
+  font-family: "sofiaProLight";
+  padding: 1px 10px;
+  font-size: 16px;
+  text-align: justify;
+}
 
 .grid-1 {
   display: flex;
@@ -208,15 +201,15 @@ body {
 .bolete-layer .one {
   position: relative;
   width: 100%;
-  margin-left:80px;
-  margin-top: 0px;
+  margin-left: -135px;
+  margin-top: 230px;
 }
 
 .bolete-layer .two {
   position: absolute;
   width: 100%;
   top: 0;
-  margin-right: 200px;
+  margin-right: 30px;
   right:200px;
 }
 
@@ -224,28 +217,7 @@ body {
   width: 100%;
   position: absolute;
   top: 160px;
-  right: 190px; 
-}
-
-.boletes {
-  top: 170px;
-  left: 0;
-  right: 0;
-  margin: 0;
-  font-size: 45px;
-  font-family: 'windsor_BT';
-  padding: 12px 28px;
-  margin: 0;
-}
-
-.grid-2 {
-  display: flex;
-  width: 80%;
-  margin: auto;
-}
-
-.grid-2 div {
-  flex: 1;
+  right: 220px; 
 }
 
 .chanterelle-layer img  {
@@ -278,15 +250,15 @@ body {
 }
 
 .chanterelles  {
-    top: 170px;
-    left: 0;
-    right: 0;
-    margin: 0;
-    font-size: 55px;
-    color: #352F31;
-    font-family: 'windsor_BT';
-    padding: 0px 5px;
-    margin: 0;
+  top: 170px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  font-size: 55px;
+  color: #352F31;
+  font-family: 'windsor_BT';
+  padding: 0px 5px;
+  margin: 0;
  }
 
 .chanterelle-content h2 {
@@ -297,71 +269,58 @@ body {
   font-family: 'WindsorOpti-LightCondensed' 
 }
 
- .grid-3 {
-  display: flex;
-  width: 80%;
-  margin: auto;
+.hedgehog-layer img{
+  width: 90%;
+  padding: 35px;
 }
 
-.grid-3 div {
-  flex: 1;
-}
 .hedgehog-layer{
   position: relative;
 }
 
+.hedgehog-layer .one {
+  width: 110%;
+  margin-right: 80px;
+}
+
 .hedgehog-layer .two {
   position: absolute;
-  top: 0;
-  left:200px;
+  width: 110%;
+  top: 290px;
+  left: 100px;
 }
 
 .hedgehog-layer .three {
   position: absolute;
-  top: 100px;
-  left:0;
+  width: 100%;
+  top: 150px;
+  left:90px;
 }
 
-.hedgehogs {
-  top: 170px;
-  left: 0;
-  right: 0;
-  margin: 0;
-  font-size: 45px;
-  font-family: 'windsor_BT';
-  padding: 12px 28px;
-  margin: 0;
+.morel-layer img{
+  width: 105%;
+  padding: 35px;
 }
-
-.hyndum {
-  font-size: 30px;
-  font-family: 'windsor_BT';
-}
-
-
-.grid-4 {
-  display: flex;
-  width: 80%;
-  margin: auto;
-}
-
-.grid-4 div {
-  flex: 1;
-}
-
-.morel-layer{
+ 
+.morel-layer {
   position: relative;
+}
+
+.morel-layer .one {
+  width: 100%;
 }
 
 .morel-layer .two {
   position: absolute;
-  top: 250px;
-  left:50px;
+  width: 100%;
+  top: 280px;
+  left:80px;
 }
 .morel-layer .three {
   position: absolute;
+  width: 100%;
   top: 120px;
-  left: 30px;
+  margin-left: 50px;
 }
 
 .morels {
@@ -369,11 +328,25 @@ body {
   left: 0;
   right: 0;
   margin: 0;
-  font-size: 45px;
-  font-family: 'windsor'
-  padding: 12px 28px;
+  font-size: 55px;
+  color: #352F31;
+  font-family: 'windsor_BT';
+  padding: 0px 5px;
   margin: 0;
 }
+
+.morel-content h2 {
+  margin-top: 0px;
+  padding: 5px 5px 20px 5px;
+  font-size: 34px;
+  color: #352F31;
+  font-family: 'WindsorOpti-LightCondensed'  
+}
+
+.morel-content {
+  padding: 150px 10px 10px 30px;
+}
+
 
 
 

@@ -68,6 +68,7 @@ html {
 }
 
 a {
+  color: #352F31;
 	text-decoration: none;
 }
 
@@ -113,6 +114,9 @@ nav li{
 }
 
 .home h1{
+  animation: slideInDown;
+  animation-duration: 2s;
+  animation-delay: .3s;
   font-family: "windsor_BT";
   text-align: center;
   margin-bottom: 0px;
@@ -140,18 +144,27 @@ nav li{
 }
 
 .homepage-layer .one { /* shapes */
+  animation: slideInUp;
+  animation-duration: 2s;
+  animation-delay: .3s;
   width: 100%;
   align-items: center;
   justify-content: center;
 }
 
 .homepage-layer .two { 
+  animation: pulse; 
+  animation-duration: 3s;
+  animation-delay: .5s;
   width:60%;
   position: absolute;
   top: 70px;
 }
 
 .home-img{
+  animation: pulse; 
+  animation-duration: 4s;
+  animation-iteration-count: 2;
 	background-repeat: no-repeat;
 	background-size: contain;
 	height: 100vh;
@@ -199,6 +212,10 @@ p {
 }
 
 .bolete-layer .one {
+  animation: pulse; 
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 2;
   position: relative;
   width: 100%;
   margin-left: -135px;
@@ -206,6 +223,10 @@ p {
 }
 
 .bolete-layer .two {
+  animation: pulse; 
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: 2;
   position: absolute;
   width: 100%;
   top: 0;
@@ -214,6 +235,9 @@ p {
 }
 
 .bolete-layer .three {
+  animation: pulse; 
+  animation-duration: 4s;
+  animation-iteration-count: 2;
   width: 100%;
   position: absolute;
   top: 160px;
@@ -230,16 +254,27 @@ p {
 }
 
 .chanterelle-layer .one {
+  animation: pulse; 
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 2;
   margin-left: -80px;
   margin-top: 300px;
 }
 
 .chanterelle-layer .two {
+  animation: pulse; 
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: 2;
   position: absolute;
   top: 0;
-  
 }
+
 .chanterelle-layer .three {
+  animation: pulse; 
+  animation-duration: 4s;
+  animation-iteration-count: 2;
   position: absolute;
   left: -60px;
   top: 220px;
@@ -279,11 +314,19 @@ p {
 }
 
 .hedgehog-layer .one {
+  animation: pulse; 
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 2;
   width: 110%;
   margin-right: 80px;
 }
 
 .hedgehog-layer .two {
+  animation: pulse; 
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: 2;
   position: absolute;
   width: 110%;
   top: 290px;
@@ -291,6 +334,9 @@ p {
 }
 
 .hedgehog-layer .three {
+  animation: pulse; 
+  animation-duration: 4s;
+  animation-iteration-count: 2;
   position: absolute;
   width: 100%;
   top: 150px;
@@ -307,16 +353,28 @@ p {
 }
 
 .morel-layer .one {
+  animation: pulse; 
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 2;
   width: 100%;
 }
 
 .morel-layer .two {
+  animation: pulse; 
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: 2;
   position: absolute;
   width: 100%;
   top: 280px;
   left:80px;
 }
+
 .morel-layer .three {
+  animation: pulse; 
+  animation-duration: 4s;
+  animation-iteration-count: 2;
   position: absolute;
   width: 100%;
   top: 120px;

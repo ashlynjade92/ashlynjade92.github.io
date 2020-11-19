@@ -19,7 +19,7 @@ animation: bike 1s ease-in-out infinite alternate;
 transform-origin: bottom;
 }
 
-#hat{
+#hat_2{
     animation: hat 1s ease-in-out infinite alternate;
     transform-origin: center;
     transform-box: fill-box;

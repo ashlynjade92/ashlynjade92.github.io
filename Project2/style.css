@@ -22,6 +22,10 @@
   font-style: normal;
 }
 
+.home, .story, .menu{
+  background-color: #EEEFE8;;
+}
+
 /* START of Mobile Menu */
 .nav,
 .desktop {
@@ -125,7 +129,7 @@
   line-height: 70px;
 }
 .menu-mobile a:hover {
-  color: red;
+  color: #B75895;
 }
 
 .desktop,
@@ -183,18 +187,22 @@ img {width: 100%;}
 }
 
 .story .ourstory {
+display: flex;
 justify-content: center;
-margin: 50px;
+width: 65%;
+margin: auto;
+font-family: "optima";
 }
 
  
   .container3 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     position: relative;
-    padding-top: 55px;
+    padding-top: 35px;
     padding-bottom: 20px;
-    width: 100%; 
+    width: 90%;
+    margin: auto;
   }
 
   .promise {
@@ -203,8 +211,53 @@ margin: 50px;
 
   .promise { 
     align-self: center;
-   
    }
+
+   /* Container needed to position the button. Adjust the width as needed */
+.reservation {
+  position: relative;
+  width: 90%;
+}
+
+/* Make the image responsive */
+.reservation img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.reservation .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.reservation .btn:hover {
+  background-color: black;
+}
+
+/* menu page */
+
+   .container1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin: auto;
+   }
+
+
 
 
 /* END OF Mobile Menu */
@@ -223,8 +276,9 @@ margin: 50px;
     height: 0;
     text-align: right;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 20px;
+    right: 10px;
+    font-family: Optima;
   }
 
   .chefintro { align-self: center; }
@@ -247,8 +301,9 @@ margin: 50px;
     color: #333;
     justify-content: space-evenly;
   }
+  
   .menu-desktop a:hover {
-    color: red;
+    color: #B75895
   }
 
   .desktop {
@@ -268,7 +323,7 @@ margin: 50px;
   .promise { 
     align-self: center;
     font-family: "optima";
-   }
+  }
 
   .container.even-grid {
     flex-direction: row;
@@ -288,19 +343,67 @@ margin: 50px;
     font-weight: 600px;
     padding: 20px 20px 10px 20px;
   }
+
+  .story header{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 85px;
+    font-size: 2.5vw;
+    font-weight: 600px;
+    padding: 20px 20px 10px 20px;
+  }
+
+  .container1 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width: 80%;
+   }
+
   /* END of desktop menu for 768 media query */
 }
-
 
 @media only screen and (min-width: 1024px) {
   .home header{
     font-size: 2.5vw;
   }
 
-
   #logo {
     width: 30%;
     margin-top: 30px;
     margin-left: 20px;
   }
+
+  .container1 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width: 70%;
+   }
+
+   .menu-desktop {
+    width: 100%;
+    display: block;
+    padding: 0;
+    line-height: 50px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 0;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    font-family: Optima;
+  }
+
+  .button {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    float: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Optima;
+}
 }

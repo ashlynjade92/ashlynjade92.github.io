@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Thai Farmhouse Kitchen</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
@@ -60,7 +61,7 @@
    </div>
     <div class="container odd-grid">
         <div>
-            <img class="image2 right-desktop" src="images/chef.gif" alt="chef">
+            <img class="image2 right-desktop" data-aos="fade-left" src="images/chef.gif" alt="chef">
     </div>
     <div class="chefintro">
         <p>“My goal is to make sure people get enough spice”says owner Kasem “Pop”  Saengsawang. It is all about the spice. The spice extends life, and we strive to provide the freshest pure ingredients in everything we serve, from our Thai street food to our fancier entrees. “We believe that Thai cuisine will never die. We believe the spiciness will last long, forever.”</p>
@@ -71,24 +72,29 @@
     </div>
     <div class="container even-grid">
         <div>
-            <img class="image3 left-desktop" src="images/noodles.jpg" alt="noodles">
+            <img class="image3 left-desktop"  data-aos="fade-right" src="images/noodles.jpg" alt="noodles">
         </div>
     <div class="promise">
         <p>We refuse to compromise on quality in our restaurant. That's why we source our fresh ingredients from local farmers' markets. No matter what time of year, you can be sure you're eating the best of the season.</p>
     </div>
     </div>
     <div class="container reservation">
-    <img src="images/dinner.jpg" alt="dinner">
+    <img src="images/dinner.jpg"  data-aos="fade-up" alt="dinner">
     <button class="btn">Stop right in!</button>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script type="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"> </script>
     <script type="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
     <script type="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration: 3000,
+    })
+  </script>
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

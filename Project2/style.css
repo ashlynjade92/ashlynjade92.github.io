@@ -164,13 +164,13 @@ img {width: 100%;}
   font-family: "optima_B";
 }
 
-.container {
+div.container {
     display: flex;
     flex-direction: column;
     position: relative;
     padding-top: 35px;
     padding-bottom: 20px;
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -401,14 +401,18 @@ font-family: "optima";
 /* Make a reservation button */
   .button {
     display: inline-block;
+  }
+  .button button{
     border: none;
     padding: 32px 34px;
-    float: right;
+    position: absolute;
+    top: 20px;
+    right: 20px;
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
     font-family: Optima;
     font-size: 16px;
-}
+  }
 }
 

@@ -1,3 +1,5 @@
+
+/* FONTS */
 @font-face {
   font-family: 'optima_B';
   src:
@@ -22,11 +24,18 @@
   font-style: normal;
 }
 
+
+/* END FONTS */
+
+/* UNIVERSAL STYLES */
+
 .home, .story, .menu{
   background-color: #EEEFE8;;
 }
 
-/* START of Mobile Menu */
+/* END UNIVERSAL STYLES */
+
+/* START of Hamburger Nav */
 .nav,
 .desktop {
   display: block;
@@ -141,6 +150,10 @@
 
 img {width: 100%;}
 
+/* END of Hamburger Nav */
+
+/* Homepage */
+
 .home header{
   text-align: center;
   margin-bottom: 0px;
@@ -172,8 +185,46 @@ img {width: 100%;}
 
 .promise {
   font-family: "optima";
+  padding-top: 30px;
+  align-self: center;
 }
 
+   /* Container needed to position the button. Adjust the width as needed */
+   .reservation {
+    position: relative;
+    width: 90%;
+  }
+  
+  /* Make the image responsive */
+  .reservation img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .reservation .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .reservation .btn:hover {
+    background-color: black;
+  }
+
+
+/* End Homepage */
+
+/* Start Story Page */
 
 .story header{
   text-align: left;
@@ -193,69 +244,38 @@ margin: auto;
 font-family: "optima";
 }
 
-  .container3 {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    padding-top: 35px;
-    padding-bottom: 20px;
-    width: 90%;
-    margin: auto;
-  }
-
-  .promise {
-    padding-top: 30px;
-  }
-
-  .promise { 
-    align-self: center;
-   }
-
-   /* Container needed to position the button. Adjust the width as needed */
-.reservation {
+.container3 {
+  display: flex;
+  flex-direction: column;
   position: relative;
+  padding-top: 35px;
+  padding-bottom: 20px;
   width: 90%;
+  margin: auto;
 }
 
-/* Make the image responsive */
-.reservation img {
-  width: 100%;
-  height: auto;
-}
 
-/* Style the button and place it in the middle of the container/image */
-.reservation .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
+/* Menu page Start */
 
-.reservation .btn:hover {
-  background-color: black;
-}
 
 .menucarousel {
   padding-top: 150px;
 }
 
+/* Menu page End */
 
 
-
-/* END OF Mobile Menu */
+/* END OF MOBILE VIEW */
 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
   /* START of desktop menu for 768 media query */
+
+
+  /* Start of Nav */
+
   .menu-desktop {
     width: 100%;
     display: block;
@@ -269,18 +289,6 @@ font-family: "optima";
     top: 20px;
     right: 10px;
     font-family: Optima;
- 
-  }
-
-  .chefintro { align-self: center; }
-
-  .container.odd-grid {
-    flex-direction: row-reverse;
-  }
-
-  .container div {
-    flex: 1;
-    padding: 20px;
   }
 
   .menu-desktop a {
@@ -310,15 +318,27 @@ font-family: "optima";
     display: none;
   }
 
-/* END of hamburger nav */
+  .button {
+    display: none;
+  }
 
-  .promise { 
-    align-self: center;
-    font-family: "optima";
+   /* End of Nav */
+
+   /* Start of Homepage */
+
+  .chefintro { align-self: center; }
+
+  .container.odd-grid {
+    flex-direction: row-reverse;
   }
 
   .container.even-grid {
     flex-direction: row;
+  }
+
+  .container div {
+    flex: 1;
+    padding: 20px;
   }
 
   #logo {
@@ -336,6 +356,10 @@ font-family: "optima";
 
   }
 
+   /* End of Homepage */
+
+  /* Start of Story Page */
+
   .story header{
     text-align: center;
     margin-bottom: 0px;
@@ -343,10 +367,6 @@ font-family: "optima";
     font-size: 2.5vw;
     font-weight: 600px;
     padding: 20px 20px 10px 20px;
-  }
-
-  .button {
-    display: none;
   }
 
   /* END of desktop menu for 768 media query */
@@ -378,8 +398,7 @@ font-family: "optima";
     font-size: 18px;
   }
 
-
-
+/* Make a reservation button */
   .button {
     display: inline-block;
     border: none;
@@ -391,6 +410,5 @@ font-family: "optima";
     font-family: Optima;
     font-size: 16px;
 }
-
 }
 

@@ -378,19 +378,19 @@ font-family: "optima";
     font-size: 18px;
   }
 
+
+
   .button {
     display: inline-block;
     border: none;
-    color: white;
-    background-color: #D6DBBC;
     padding: 32px 34px;
     float: right;
-    text-decoration: none;
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
     font-family: Optima;
     font-size: 16px;
 }
+
 }
 

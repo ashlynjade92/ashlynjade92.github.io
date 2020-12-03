@@ -267,14 +267,13 @@ font-family: "optima";
 /* Begin RESERVATION PAGE */
 
 div.reserveit {
-  background-color: #fafafa;
+  background-color: #EEEFE8;
   padding-top: 100px;
-  box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
   }
 
 
   .container-time {
-    background-color: red;
+    background-color: #EEEFE8;
     padding: 50px;
     outline: 3px dashed #998100;
     outline-offset: -30px;
@@ -289,6 +288,10 @@ div.reserveit {
     .heading-days {
     color:#998100;
     font-size: 30px;
+    }
+
+    .heading-yellow {
+      text-align: center;
     }
       
     .heading-phone {
@@ -347,6 +350,8 @@ div.reserveit {
       -o-transform: scale(1.03);
       box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
     }
+
+    /* END RESERVTION PAGE */
   
 /* END OF MOBILE VIEW */
 

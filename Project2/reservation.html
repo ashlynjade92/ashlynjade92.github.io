@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>Thai Farmhouse Kitchen</title>
     <link rel="stylesheet" href="style.css">
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
-<body class="reservationhome">
+<body class="reservationpage">
     <nav class="nav">
         <div class="icon">
             <div class="hamburger"></div>
@@ -21,7 +21,6 @@
             <div id="logo"><img width="45%" src="images/logo.gif"></div>
         </div>         
     </nav>
-    
     <nav class="desktop">
         <div class="menu-desktop">
             <a href="home.html" class="navnames" >Home</a>
@@ -30,90 +29,16 @@
         </div>
         
         <div class="button">
-            <button onclick="window.location.href='http://ashlynjade92.github.io/Project2/reservation.html';">
+            <button onclick="window.location.href='https://w3docs.com';">
                 Make a Reservation
               </button>
          </div>
          <div id="brand">
-            <div id="logo"><src="images/logo.gif"></div>
+            <div id="logo"><img width="45%" src="images/logo.gif"></div>
         </div>
     </nav>
 
-<div class=container reserveit>
-    <div class="reserve">
-        <a href="#" class="icon icon--prev">Prev</a>
-        <a href="#" class="icon icon--search">Search</a>
-        <h2 class="reservation__title">The Water Club</h2>
-        <form class="reservation-form" action="">
-          <div class="reservation-form__count">
-            <label for="count">Table For</label><br>
-            <button id="btn-minus" type="button">-</button>
-            <input id="count" type="text" name="count" value="2">
-            <button id="btn-plus" type="button">+</button>
-          </div>
-          <div class="reservation-form__date">
-            <label for="date">Choose Date &amp; Time</label><br>
-            <input id="date" type="text" name="date" value="05 may 2017">
-            <span>-</span>
-            <input id="time" type="text" name="time" value="19:30">
-          </div>
-          <button id="submit" type="submit">Confirm</button>
-        </form>
-      </div>
-    </div>
- 
- 
-
-   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
-    <script>
-    window.addEventListener("DOMContentLoaded", function() {
-        var btnPlus = document.querySelector("#btn-plus"),
-                btnMinus = document.querySelector("#btn-minus"),
-                count = document.querySelector("#count");
-    
-        btnPlus.addEventListener("click", changeCounter);
-        btnMinus.addEventListener("click", changeCounter);
-    
-        function changeCounter() {
-            if (this == btnPlus) {
-                enableBtn(btnMinus);
-                if (count.value >= 9) {
-                    disableBtn(this);
-                }
-                else {
-                    count.value++;
-                    if (count.value == 9) {
-                        disableBtn(this);
-                    }
-                }
-            }
-            if (this == btnMinus) {
-                enableBtn(btnPlus);
-                if (count.value <= 1) {
-                    disableBtn(this);
-                }
-                else {
-                    count.value--;
-                    if (count.value == 1) {
-                        disableBtn(this);
-                    }
-                }
-            }
-        }
-    
-        function disableBtn(btn) {
-            btn.style.opacity = .3;
-            btn.style.cursor = "default";
-        }
-    
-        function enableBtn(btn) {
-            btn.style.opacity = 1;
-            btn.style.cursor = "pointer";
-        }
-    });
-</script>
-
 </body>
 </html>

@@ -29,8 +29,16 @@
 
 /* UNIVERSAL STYLES */
 
+.menu {
+  margin-top: 70px;
+}
+
+.reservationpage {
+  margin-top: 110px;
+}
+
 .home, .story, .menu{
-  background-color: #EEEFE8;;
+  background-color: #EEEFE8;
 }
 
 /* END UNIVERSAL STYLES */
@@ -268,14 +276,14 @@ font-family: "optima";
 
 div.reserveit {
   background-color: #EEEFE8;
-  padding-top: 100px;
+  padding-top: 0px;
   }
 
 
   .container-time {
     background-color: #EEEFE8;
     padding: 50px;
-    outline: 3px dashed #998100;
+    outline: 3px solid #72AC96;
     outline-offset: -30px;
     text-align: center;
     }
@@ -283,15 +291,18 @@ div.reserveit {
     .heading {
       font-size: 35px;
       text-transform: uppercase;
+      font-family: Optima;
       }
       
     .heading-days {
-    color:#998100;
+    color:black;
     font-size: 30px;
+    font-family: Optima;
     }
 
     .heading-yellow {
       text-align: center;
+      font-family: Optima;
     }
       
     .heading-phone {
@@ -360,7 +371,6 @@ div.reserveit {
 @media only screen and (min-width: 768px) {
 
   /* START of desktop menu for 768 media query */
-
 
   /* Start of Nav */
 
@@ -457,10 +467,20 @@ div.reserveit {
     padding: 20px 20px 10px 20px;
   }
 
+
   /* END of desktop menu for 768 media query */
 }
 
 @media only screen and (min-width: 1024px) {
+
+  .menu {
+    margin-top: 140px;
+  }
+  
+  .reservationpage {
+    margin-top: 180px;
+  }
+
   .home header{
     font-size: 2.5vw;
   }
@@ -507,7 +527,7 @@ div.reserveit {
 
   div.reserveit{
     flex-direction: row;
-    padding-top: 160px;
+    padding-top: 0px;
     grid-template-columns: 40% 60%;
   }
 

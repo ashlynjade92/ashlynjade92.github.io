@@ -296,7 +296,7 @@ div.reserveit {
       font-family: Optima;
     }
 
-    .heading-days {
+    .container-time {
       font-family: Optima;
     }
       
@@ -451,7 +451,7 @@ div.reserveit {
     /* START RESERVATION PAGE */
 
     .heading {
-      padding-top: 30px;
+      padding-top: 70px;
     }
 
     .heading-phone {
@@ -579,11 +579,21 @@ nav.nav,
 
   div.reserveit{
     flex-direction: row;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 20%;
+    width: 75%;
+    margin-bottom: 90px;
   }
 
   .heading-phone {
     padding-bottom: 0px;
+    font-size: 18px;
+  }
+
+  .container-form {
+    
+  }
+  .heading-days {
+    font-size: 20px;
   }
 
   /* STORY PAGE */
@@ -594,7 +604,6 @@ nav.nav,
     }
 
     .container3 {
-      width: 70%;
       margin: auto;
     }
 

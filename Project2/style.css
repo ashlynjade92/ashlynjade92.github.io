@@ -32,7 +32,7 @@
 .menu {
   margin-top: 70px;
 }
-
+ 
 .reservationpage {
   margin-top: 110px;
 }
@@ -212,10 +212,8 @@ div.container {
   /* Style the button and place it in the middle of the container/image */
   .reservation .btn {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    top: 45%;
+    left: 34%;
     background-color: #555;
     color: white;
     font-size: 16px;
@@ -237,20 +235,20 @@ div.container {
 .story header{
   text-align: left;
   margin-bottom: 10px;
-  margin-top: 110px;
+  margin-top: 90px;
   font-size: 4vw;
-  font-weight: 600px;
-  padding: 20px 20px 10px 20px;
+  padding: 20px 20px 10px 0px;
 }
 
 .story .ourstory {
 display: flex;
-padding-top: 110px;
+padding-top: 0px;
 justify-content: center;
-width: 65%;
+width: 80%;
 margin: auto;
 font-family: "optima";
 }
+
 
 .container3 {
   display: flex;
@@ -363,6 +361,14 @@ div.reserveit {
     }
 
     /* END RESERVTION PAGE */
+
+    /* STORY PAGE */
+
+    .container3 img {
+      padding-bottom: 40px;
+    }
+
+    
   
 /* END OF MOBILE VIEW */
 
@@ -372,49 +378,9 @@ div.reserveit {
 
   /* START of desktop menu for 768 media query */
 
+
+
   /* Start of Nav */
-
-  .menu-desktop {
-    width: 100%;
-    display: block;
-    padding: 0;
-    line-height: 50px;
-    justify-content: space-evenly;
-    flex-direction: row;
-    height: 0;
-    text-align: right;
-    position: absolute;
-    top: 20px;
-    right: 10px;
-    font-family: Optima;
-  }
-
-  .menu-desktop a {
-    display: inline-flex;
-    margin-right: 30px;
-    height: 0;
-    line-height: 50px;
-    text-decoration: none;
-    color: #D6DBBC;
-    justify-content: space-evenly;
-  }
-  
-  .menu-desktop a:hover {
-    text-decoration: none;
-    color: #B75895
-  }
-
-  .desktop {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    display: block;
-  }
-
-  nav.nav,
-  .menu-mobile {
-    display: none;
-  }
 
   .button {
     display: none;
@@ -436,7 +402,17 @@ div.reserveit {
 
   .container div {
     flex: 1;
-    padding: 20px;
+    padding: 0px;
+  }
+
+  .chefintro p {
+    padding-right: 50px;
+    font-size: 18px;
+  }
+
+  .promise p {
+    padding-left: 50px;
+    font-size: 18px;
   }
 
   #logo {
@@ -451,7 +427,12 @@ div.reserveit {
     margin-top: 85px;
     font-size: 2.5vw;
     font-weight: 600px;
+  }
 
+  .reservation .btn {
+    position: absolute;
+    top: 49%;
+    left: 40%;
   }
 
    /* End of Homepage */
@@ -459,13 +440,17 @@ div.reserveit {
   /* Start of Story Page */
 
   .story header{
-    text-align: center;
+    text-align: left;
     margin-bottom: 0px;
     margin-top: 85px;
     font-size: 2.5vw;
-    font-weight: 600px;
-    padding: 20px 20px 10px 20px;
+    padding: 20px 20px 10px 0px;
   }
+
+  .story .ourstory {
+    padding-top: 50px;
+    width: 60%;
+    }
 
 
   /* END of desktop menu for 768 media query */
@@ -473,8 +458,64 @@ div.reserveit {
 
 @media only screen and (min-width: 1024px) {
 
+/*start of nav*/
+
+.menu-desktop {
+  width: 100%;
+  display: block;
+  padding: 0;
+  line-height: 50px;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 0;
+  text-align: right;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  font-family: Optima;
+}
+
+.menu-desktop a {
+  display: inline-flex;
+  margin-right: 30px;
+  height: 0;
+  line-height: 50px;
+  text-decoration: none;
+  color: #D6DBBC;
+  justify-content: space-evenly;
+}
+
+.menu-desktop a:hover {
+  text-decoration: none;
+  color: #72AC96
+}
+
+.desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  display: block;
+}
+
+nav.nav,
+.menu-mobile {
+  display: none;
+}
+
+/* end of nav */
+
   .menu {
     margin-top: 140px;
+  }
+
+/* start of HOMEPAGE */
+
+  .home {
+    margin-top: 150px;
+  }
+
+  .container.hands {
+    margin-top: 30px;
   }
   
   .reservationpage {
@@ -486,15 +527,14 @@ div.reserveit {
   }
 
   #logo {
-    width: 30%;
-    margin-top: 30px;
+    width: 25%;
+    margin-top: 10px;
     margin-left: 20px;
   }
 
    .menu-desktop {
     width: 100%;
     display: block;
-    padding: 0;
     line-height: 50px;
     justify-content: space-evenly;
     flex-direction: row;
@@ -503,20 +543,27 @@ div.reserveit {
     position: absolute;
     top: 20px;
     font-family: Optima;
-    font-size: 18px;
+    font-size: 20px;
+  }
+
+  .reservation .btn {
+    position: absolute;
+    top: 49%;
+    left: 43%;
   }
 
 /* Make a reservation button */
+
   .button {
     display: inline-block;
   }
   .button button{
     border: none;
-    padding: 32px 34px;
+    background-color: #EEEFE8;
+    padding: 10px 10px 10px 10px;
     position: absolute;
-    top: 20px;
+    top: 25px;
     right: 20px;
-    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
     font-family: Optima;
@@ -527,9 +574,20 @@ div.reserveit {
 
   div.reserveit{
     flex-direction: row;
-    padding-top: 0px;
     grid-template-columns: 40% 60%;
   }
+
+  /* STORY PAGE */
+
+  .story .ourstory {
+    padding-top: 70px;
+    width: 43%;
+    }
+
+    .container3 {
+      width: 70%;
+      margin: auto;
+    }
 
 }
 

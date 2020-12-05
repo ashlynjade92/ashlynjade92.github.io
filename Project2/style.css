@@ -277,7 +277,6 @@ div.reserveit {
   padding-top: 0px;
   }
 
-
   .container-time {
     background-color: #EEEFE8;
     padding: 50px;
@@ -291,20 +290,19 @@ div.reserveit {
       text-transform: uppercase;
       font-family: Optima;
       }
-      
-    .heading-days {
-    color:black;
-    font-size: 30px;
-    font-family: Optima;
-    }
 
     .heading-yellow {
       text-align: center;
       font-family: Optima;
     }
+
+    .heading-days {
+      font-family: Optima;
+    }
       
     .heading-phone {
-    font-size: 20px;
+    font-family: Optima_B;
+    font-size: 16px;
     }
 
     .container-form {
@@ -378,8 +376,6 @@ div.reserveit {
 
   /* START of desktop menu for 768 media query */
 
-
-
   /* Start of Nav */
 
   .button {
@@ -452,6 +448,15 @@ div.reserveit {
     width: 60%;
     }
 
+    /* START RESERVATION PAGE */
+
+    .heading {
+      padding-top: 30px;
+    }
+
+    .heading-phone {
+      padding-bottom: 35px;
+    }
 
   /* END of desktop menu for 768 media query */
 }
@@ -575,6 +580,10 @@ nav.nav,
   div.reserveit{
     flex-direction: row;
     grid-template-columns: 40% 60%;
+  }
+
+  .heading-phone {
+    padding-bottom: 0px;
   }
 
   /* STORY PAGE */

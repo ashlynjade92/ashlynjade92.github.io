@@ -167,7 +167,6 @@ img {width: 100%;}
   margin-bottom: 0px;
   margin-top: 40px;
   font-size: 3.5vw;
-  font-weight: 600px;
   padding: 70px 20px 10px 20px;
   font-family: "optima_B";
 }
@@ -319,7 +318,6 @@ div.reserveit {
     }
     
     form p {
-      font-weight: 600;
       font-family: Optima_B;
     }
    
@@ -425,7 +423,6 @@ div.reserveit {
     margin-bottom: 0px;
     margin-top: 85px;
     font-size: 2.5vw;
-    font-weight: 600px;
   }
 
   .reservation .btn {
